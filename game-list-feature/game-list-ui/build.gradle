@@ -1,0 +1,10 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+apply from: '../../gradle/default_build.gradle'
+
+android {
+    namespace 'com.thibault.game_list_ui'
+}

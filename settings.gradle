@@ -15,3 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Rawg"
 include ':app'
+include ':game-list-feature'
+include ':game-list-feature:game-list-ui'
+include ':game-list-feature:game-list-business'
